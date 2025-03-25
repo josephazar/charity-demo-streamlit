@@ -1,0 +1,6 @@
+python3 -m venv venv ==> Create venv
+source venv/bin/activate ==> Activate venv
+deactivate
+pip install -r requirements.txt
+
+pip freeze > requirements_prod.txt
